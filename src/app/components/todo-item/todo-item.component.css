@@ -1,0 +1,32 @@
+.itemContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid 1px black;
+  border-radius: 5px;
+  height: 55px;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #F8F8F8;
+}
+
+.itemContaniner_task{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 130px;
+
+}
+
+.itemContaniner_task > p{
+  text-align: left;
+  min-width: 100px;
+  margin: 0 !important;
+}
+
+.icon_item{
+  cursor: pointer;
+}
+
+

@@ -1,0 +1,9 @@
+<div class="addTodo">
+  <p>Add your new todo</p>
+  <input [(ngModel)]="todo" type="text" placeholder="Write your new todo"/>
+  <div class="addButtons">
+    <button mat-raised-button color="primary" style="background-color: #61dafa;"  (click)="agregarTodo()">Agregar</button>
+
+    <button mat-raised-button (click)="cancelar()">Cancelar</button>
+  </div>
+</div>

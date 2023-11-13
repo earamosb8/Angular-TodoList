@@ -1,0 +1,13 @@
+<!--<mat-card *ngFor="let todo of todoList; let i = index" style="margin-bottom: 10px;">
+  <mat-card-content class="itemContainer"> -->
+
+    <div  class="itemContainer" *ngFor="let todo of todoList; let i = index" style="margin-bottom: 10px;">
+      <div class="itemContaniner_task">
+        <div (click)="checkItem(i)" class="icon_item">✅</div>
+        <p [ngStyle]="{'text-decoration': todo.completed  ? 'line-through' : ''} ">{{ todo.title }}</p>
+      </div>
+      <div (click)="delete(i)" class="icon_item">🗑️</div>
+    </div>
+ <!-- </mat-card-content>
+</mat-card> -->
+

@@ -1,0 +1,10 @@
+<h1 style="text-align: center;">Todo Machine</h1>
+<h2 > {{this.subtitulo}}</h2>
+<!--<input  type="text" (keyup)="buscarTodos($event)" name="" class="input"/>-->
+
+
+<app-todo-list  *ngIf="todoList.length > 0 && mostrar === false"  [todoList] = "todoList" (componenteIniciado)="subtitulo=$event" ></app-todo-list>
+<app-add-todo-component  *ngIf="todoList.length === 0 || mostrar === true" (todoIngresado)="mostrar =false" (cancelarTodo)="mostrar = false" (componenteIniciado)="subtitulo=$event"></app-add-todo-component>
+
+<app-todo-button (click)="activar()" ></app-todo-button>
+

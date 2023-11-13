@@ -1,0 +1,26 @@
+.addTodo{
+  display: flex;
+  flex-direction: column;
+
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-top: 25px;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #F8F8F8;
+  height: 300px;
+
+  justify-content: center;
+}
+
+.addTodo input {
+  height: 50px;
+}
+
+.addTodo > *{
+  margin:10px  0 !important;
+}
+
+.addButtons{
+  display: flex ;
+}
