@@ -4,15 +4,9 @@ A task management application built with **Angular 16**, allowing users to manag
 
 ---
 
-## 🚀 Live Demo
+## 🚀 You can try ..
 
-> _Coming soon / Add your live demo link here_
-
----
-
-## 📸 Preview
-
-> _Add a screenshot of the app here_
+https://earamosb8.github.io/Angular-TodoList/
 
 ---
 
