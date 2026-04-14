@@ -16,14 +16,7 @@ import { trigger,state,style,animate,transition } from '@angular/animations';
 })
 
 export class TodoMachineComponent {
-  /*  todoList : Todo[] = [
-      { title: 'Buy groceries', completed: false },
-      { title: 'Call mom', completed: true },
-      { title: 'Call dad', completed: false },
-      { title: 'Call brother', completed: false },
-      { title: 'Call sister', completed: false },
-    ]*/
-
+ 
     @Input() subtitulo:string = 'Add Todos';
     todoList : Todo[] =[];
     mostrar:boolean = false;
