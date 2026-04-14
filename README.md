@@ -1,27 +1,137 @@
-# TodoMachineAngular
+# ✅ Angular TodoList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+A task management application built with **Angular 16**, allowing users to manage their to-dos with a clean and reactive interface.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Live Demo
 
-## Code scaffolding
+> _Coming soon / Add your live demo link here_
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 📸 Preview
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+> _Add a screenshot of the app here_
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🛠️ Built With
 
-## Running end-to-end tests
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/angularjs/angularjs-original.svg" alt="Angular" width="40" height="40" title="Angular" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40" title="TypeScript" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40" title="CSS3" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40" title="HTML5" />
+</p>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [Angular 16](https://angular.io/) — Main framework
+- [TypeScript](https://www.typescriptlang.org/) — Typed language
+- [Angular CLI](https://angular.io/cli) v16.2.6 — Development tooling
+- CSS3 & HTML5
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## ✨ Features
+
+- ➕ Add new tasks
+- ✔️ Mark tasks as completed
+- 🗑️ Delete tasks
+- 📋 View pending and completed tasks
+- 🔄 Auto-reload on file changes during development
+
+---
+
+## 📁 Project Structure
+
+```
+Angular-TodoList/
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.css
+│   │   └── app.module.ts
+│   ├── assets/
+│   └── index.html
+├── angular.json
+├── tsconfig.json
+└── package.json
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Node.js >= 16
+- Angular CLI v16
+
+```bash
+npm install -g @angular/cli
+```
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/earamosb8/Angular-TodoList.git
+cd Angular-TodoList
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+ng serve
+```
+
+Open [http://localhost:4200](http://localhost:4200) in your browser. The app reloads automatically when you make changes.
+
+---
+
+## 📦 Available Scripts
+
+| Command | Description |
+|---|---|
+| `ng serve` | Starts the app in development mode |
+| `ng build` | Builds the app for production into `/dist` |
+| `ng test` | Runs unit tests via Karma |
+| `ng e2e` | Runs end-to-end tests |
+| `ng generate component name` | Generates a new component |
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve this project:
+
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a Pull Request
+
+---
+
+## 👤 Author
+
+**Eduardo Ramos**
+- GitHub: [@earamosb8](https://github.com/earamosb8)
+- LinkedIn: [earamosb8](https://www.linkedin.com/in/earamosb8/)
+- Email: earamosb8@gmail.com
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
