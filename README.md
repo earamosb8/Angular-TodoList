@@ -46,17 +46,32 @@ Angular-TodoList/
 ├── src/
 │   ├── app/
 │   │   ├── components/
+│   │   │   ├── add-todo-component/
+│   │   │   ├── todo-button/
+│   │   │   ├── todo-item/
+│   │   │   ├── todo-list/
+│   │   │   └── todo-machine/
+│   │   ├── interfaces/
+│   │   ├── services/
+│   │   ├── app-routing.module.ts
 │   │   ├── app.component.ts
 │   │   ├── app.component.html
 │   │   ├── app.component.css
+│   │   ├── app.component.spec.ts
 │   │   └── app.module.ts
 │   ├── assets/
-│   └── index.html
+│   ├── index.html
+│   ├── main.ts
+│   └── styles.css
+├── .editorconfig
+├── .firebaserc
 ├── angular.json
+├── firebase.json
 ├── tsconfig.json
-└── package.json
+├── tsconfig.app.json
+└── tsconfig.spec.json
 ```
-
+ 
 ---
 
 ## ⚙️ Getting Started
